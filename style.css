@@ -1,0 +1,38 @@
+.vjs-tech {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url("Jenny_Copter2.png") center center no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+/*  opacity: .8;
+*/}
+
+body {
+  background-color: #ea5e5b;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.form-control {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  color: white;
+}
+.form-control::-webkit-input-placeholder {
+   color: white;
+}
+.btn-transparent {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 0;
+}
